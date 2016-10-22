@@ -1,3 +1,4 @@
+#!usr/bin/python3
 ############### initialization ###############
 
 from random import randint
@@ -147,9 +148,9 @@ while (player_hp >= 1) and (enemy_hp >= 1):
 
     if (player_hp < 1) and (enemy_hp < 1):
         print("No one survived")
-    if player_hp < 1:
+    elif player_hp < 1:
         print("You lose")
-    if enemy_hp < 1:
+    elif enemy_hp < 1:
         print("You win")
     
 
