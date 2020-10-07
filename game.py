@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 ############### initialization ###############
 
 from random import randint
